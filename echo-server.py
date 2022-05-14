@@ -2,7 +2,7 @@ from audioop import add
 import socket
 port = 1235
 address = "127.0.0.1"
-BUF_SIZE = 1024
+BUF_SIZE = 3
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.bind((address, port))

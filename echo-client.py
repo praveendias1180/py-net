@@ -3,7 +3,7 @@ import socket
 from numpy import byte
 port = 1235
 address = "127.0.0.1"
-BUF_SIZE = 1024
+BUF_SIZE = 3
 
 con = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 con.connect((address, port))
