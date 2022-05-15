@@ -11,3 +11,9 @@
 # XML
 
 ![XML](xml.png)
+
+## Processing XML
+
+- DOM API (Document Object Model API)
+- SAX API (Simple API for XML)
+- ET (Element Tree)
