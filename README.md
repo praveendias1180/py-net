@@ -7,3 +7,7 @@
 # Beautiful Soup
 
 ![beautiful soup](beautiful-soup.png)
+
+# XML
+
+![XML](xml.png)
