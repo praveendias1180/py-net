@@ -6,6 +6,7 @@ url = 'https://www.google.com/search?q=Python'
 html = requests.get(url).content
 soup = BeautifulSoup(html, 'html.parser')
 
-tags = soup('h3')
-for tag in tags:
-    print(tag.find('div').text)
+headings = soup('h3')
+for heading in headings:
+    print(heading.find('div').text)
+    print(heading.parent.get('href'))
