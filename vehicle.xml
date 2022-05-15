@@ -1,9 +1,9 @@
 <vehicles>
-    <vehicle>
+    <vehicle desc="current vehicle">
         <name>Alto</name>
         <year>2021</year>
     </vehicle>
-    <vehicle>
+    <vehicle desc="previous vehicle">
         <name>WagonR</name>
         <year>2018</year>
     </vehicle>
